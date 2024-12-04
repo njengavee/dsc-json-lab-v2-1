@@ -16,7 +16,7 @@ We will be using the same dataset, `nyc_2001_campaign_finance.json`. The descrip
 
 > A listing of public funds payments for candidates for City office during the 2001 election cycle
 
-For added context, the Ciy of New York provides matching funds for eligible contributions made to candidates, using various ratios depending on the contribution amount ([more details here](https://en.wikipedia.org/wiki/New_York_City_Campaign_Finance_Board#The_Campaign_Finance_Program)). So these are not the complete values of all funds raised by these candidates, they are the amounts matched by the city. For that reason we expect that some of the values will be identical for different candidates.
+For added context, the City of New York provides matching funds for eligible contributions made to candidates, using various ratios depending on the contribution amount ([more details here](https://en.wikipedia.org/wiki/New_York_City_Campaign_Finance_Board#The_Campaign_Finance_Program)). So these are not the complete values of all funds raised by these candidates, they are the amounts matched by the city. For that reason, we expect that some of the values will be identical for different candidates.
 
 The dataset is separated into `meta`, which contains metadata, and `data`, which contains the actual campaign finance records. You will need to use the information in `meta` to understand how to interpret the information in `data`.
 
@@ -30,7 +30,7 @@ Your goal is to create a list of tuples, where the first value in each tuple is 
 ]
 ```
 
-The list should contain 284 tuples, since there were 284 candidates.
+The list should contain 284 tuples since there were 284 candidates.
 
 ## Open the Dataset
 
